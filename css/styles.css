@@ -1,0 +1,37 @@
+body{
+    font-family: sans-serif;
+    margin: 0%;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background-color: #3a4298;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo-img{
+    height: 80px;
+
+}
+
+
+footer {
+    margin: 0;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    position: bottom;
+    text-align: center;
+}
