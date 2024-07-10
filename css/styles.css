@@ -1,7 +1,9 @@
 body{
     font-family: sans-serif;
     margin: 0%;
-}
+    background: #f1f1f4;
+   margin: auto;
+   }
 
 a{
     color: #fff;
@@ -26,12 +28,12 @@ header {
 /* barra de navegacion */
 .nav{
     margin-top: 2rem;
+ 
 }
   
   .nav a {
     float: center;
     color: #f2f2f2;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -41,6 +43,27 @@ header {
   .nav a:hover {
     background-color: #ddd;
     color: #3a4298;
+  }
+
+  h1 {
+    text-align: center;
+    width: 60%;
+    margin-left: 4rem;
+  }
+
+  h2 {
+    text-align: justify;
+    width: 60%;
+    margin-left: 4rem;
+    border: 1px solid black;
+
+.contenedor {
+    width: 80%;
+}
+gif_drone {
+    width: 20%;
+}
+    
   }
   
 footer {
