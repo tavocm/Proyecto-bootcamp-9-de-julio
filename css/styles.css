@@ -1,6 +1,5 @@
 body{
     font-family: sans-serif;
-    margin: 0%;
     background: #f1f1f4;
    margin: auto;
    }
@@ -14,6 +13,7 @@ header {
     height: 80px;
     background-color: #3a4298;
     justify-content: space-between;
+   
 }
 
 .logo {
@@ -22,12 +22,15 @@ header {
 }
 .logo-img{
     height: 80px;
+    margin-left: 150px;
+    
 
 }
 
 /* barra de navegacion */
 .nav{
     margin-top: 2rem;
+    margin-right: 150px;
  
 }
   
@@ -36,36 +39,50 @@ header {
     color: #f2f2f2;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
   }
   
   
   .nav a:hover {
     background-color: #ddd;
-    color: #3a4298;
+    color: #121213;
   }
 
   h1 {
     text-align: center;
-    width: 60%;
-    margin-left: 4rem;
+    margin-left: 80px;
+    margin-right: 80px;
+    
   }
 
   h2 {
     text-align: justify;
-    width: 60%;
-    margin-left: 4rem;
-    border: 1px solid black;
+    padding: 0px;
+    margin-left: 80px;
+    margin-right: 0px;
+ 
+  }
 
-.contenedor {
-    width: 80%;
-}
-gif_drone {
-    width: 20%;
-}
-    
+  .contenedor {
+    display: flex;
+    }
+  
+    .derecha {
+      margin: 200px 160px;
+    }
+  p {
+    font-size: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
   }
   
+  ul {
+    font-size: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: justify;
+  }
+
 footer {
     margin: 0;
     padding: 10px;
