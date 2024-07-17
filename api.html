@@ -22,19 +22,24 @@
           </div>
     </header>
 
+    
+    <div class="">
+        <a href="api.html" style="margin: 100px 650px;">
+            <button>Reset cat</button>
+        </a>
+        </div>
+
     <div id="cat-container">
-        <h1></h1>
         <button id="fetch-cat">mostrar 1 gato</button>
         <div id="cat-image">
-
         </div>
     </div>
-
+   
     <script>
         document.getElementById('fetch-cat').addEventListener('click', fetchCatImage);
 
         function fetchCatImage() {
-            fetch('https://api.thecatapi.com/v1/images/search?size=med&mime_types=jpg&format=json&has_breeds=true&order=RANDOM&page=0&limit=1')
+            fetch('https://api.thecatapi.com/v1/images/search')
                 .then(response => response.json())
                 .then(data => {
                     const catImageUrl = data[0].url;
@@ -43,13 +48,12 @@
                     catImageElement.alt = 'Random Cat';
 
                     const catImageContainer = document.getElementById('cat-image');
-                    catImageContainer.innerHTML = ''; // Clear previous image
+                    
                     catImageContainer.appendChild(catImageElement);
                 })
                 .catch(error => console.error('Error fetching cat image:', error));
         }
 
-        // Fetch a cat image on page load
         fetchCatImage();
     </script>
 </body>

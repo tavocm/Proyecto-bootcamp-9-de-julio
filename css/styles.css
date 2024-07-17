@@ -91,14 +91,16 @@ header {
 
   #cat-container {
     text-align: center;
+    margin: 50px;
 }
 #cat-container img {
     max-width: 100%;
     height: auto;
     border: 2px solid #ccc;
     border-radius: 8px;
-    width: 300px; /* Fixed width */
-    height: 300px; /* Fixed height */
+    /* tamaño de imagenes todas iguales*/
+    width: 300px; 
+    height: 300px; 
 }
 
 footer {
